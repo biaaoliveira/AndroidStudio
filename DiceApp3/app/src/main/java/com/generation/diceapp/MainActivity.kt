@@ -2,6 +2,7 @@ package com.generation.diceapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -55,6 +56,5 @@ class MainActivity : AppCompatActivity() {
 
             val textDado = findViewById<TextView>(R.id.textDado)
 
-        textDado.text = rolagem.toString()
-    }
-}
+            textDado.text = rolagem.toString()
+        }
